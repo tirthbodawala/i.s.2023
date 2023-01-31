@@ -1,0 +1,10 @@
+{
+  "extends": "fastify-tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "nodenext"
+  },
+  "include": ["src/**/*.ts"]
+}
